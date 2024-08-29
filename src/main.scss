@@ -63,11 +63,11 @@ body {
   }
 
   h1::before {
-    left: -8rem;
+    left: -0rem;
   }
 
   h1::after {
-    right: -8rem;
+    right: -0rem;
   }
 }
 
@@ -143,16 +143,14 @@ body {
         display: block;
         font-size: 1.6rem;
     }
+}
 
-    .sold-out {
-        color: #888;
-    }
+.sold-out {
+    color: #888;
 
-    .sold-out {
-        img {
-            filter: grayscale(100%);
-            opacity: 0.8;
-        }
+    img {
+        filter: grayscale(100%);
+        opacity: 0.8;
     }
 }
 
